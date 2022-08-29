@@ -1,16 +1,30 @@
-# This is a sample Python script.
+def initialiser():
+    dicomiam = {"Tarte au citron meringuée":["Farine",
+                                            "Beurre",
+                                            "Sucre",
+                                            "Sucre glace",
+                                            "Oeuf",
+                                            "Sel",
+                                            "Crème au citron",
+                                            "Jus de citron",
+                                            "Meringue"],
+                "Kefta":["oignons",
+                         "persil",
+                         "poivre",
+                         "sel",
+                         "cumin",
+                         "paprika",
+                         "huile d'olive",
+                         "viande hachée",
+                         "tomates pelées",
+                         "oeuf"
+]}
+    for cle, valeur in dicomiam.items():
+        print("La recette pour", cle, "est : ", valeur)
 
-# Press Maj+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def main():
+    initialiser()
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    main()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
