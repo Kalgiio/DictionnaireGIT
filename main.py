@@ -26,6 +26,8 @@ def initialiser():
 
 def modifierunplat():
     print("ajouter le plat a modifier")
+    return
+
 
 
 
