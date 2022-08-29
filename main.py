@@ -1,3 +1,4 @@
+#modification apporté
 def initialiser():
     dicomiam = {"Tarte au citron meringuée":["Farine",
                                             "Beurre",
