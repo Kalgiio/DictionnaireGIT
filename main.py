@@ -1,4 +1,7 @@
-#modification apporté KEVIN
+#modification apportées par KEVIN
+
+def ajouterunplat()
+
 def initialiser():
     dicomiam = {"Tarte au citron meringuée":["Farine",
                                             "Beurre",
