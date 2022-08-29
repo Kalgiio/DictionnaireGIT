@@ -1,0 +1,81 @@
+DevOps
+
+Dico de liste / Dico de recette
+
+Liste des plats
+	Liste des ingredients
+
+Sans les ingredients le plats n'est pas créer
+Supprimer un plats = supprimer les ingrédients
+Utilisation des switch case
+dicomiam = {"nomDuPlat1":"nomDeIngredients1","nomDuPlat2":"nomDeIngredients2"}
+
+Stef = Remplacer,
+Raph = Supprimer, Afficher
+Kevi = Ajouter,
+Luka = Menu de chaque fonction, Modifier
+
+Fonction :
+	dicomiam = {}
+	menuPrincipale(list)
+		print("1 . Afficher les plats")
+		print("2 . Ajouter des plats")
+		print("3 . Supprimer des plats")
+		print("4 . Modifier des plats")
+		print("5 . Remplacer des plats")
+	menuAfficher()
+		afficherDesPlats()
+			afficherDesIngredients()
+	menuAjouter()
+		ajouterDesPlats()
+			ajouterDesIngredients()
+	menuSupp()
+		suppPlats()
+			suppIngredients()
+	menuModif()
+		modifDesPlats()
+			modifIngredients()
+	menuRempl()
+		remplDesPlats()
+			remplIngredients()
+
+Liste de plats
+	Tarte au citron meringué :
+		- Farine
+		- Beurre
+		- Sucre
+		- Sucre glasse
+		- Oeuf
+		- Sel
+		- Crème au citron
+		- Jus de citron
+		- Meringue
+	Kefta :
+		- oignons 
+		- persil
+		- poivre
+		- sel
+		- cumin
+		- paprika
+		- huile d'olive
+		- viande hachée
+		- tomates pelées
+		- oeuf
+	Pate carbonara :
+		- Pate fraiche
+		- Oeuf entier
+		- Parmesan rapé
+		- Pancetta
+		- Poivre
+		- Sel
+	Sandwitch de Luka :
+		- Paint sandwitch
+		- Tomate
+		- Mayo
+		- Rocket
+		- Oeuf
+		- Thon
+		- Jambon
+		- Becon
+		- Cornichon
+		- Champignon
