@@ -27,7 +27,10 @@ def initialiser():
 def modifierunplat():
     print("ajouter le plat a modifier")
     return
-#uguyguyg
+
+
+def remplacerunplat():
+    print("quel est le plat a remplacer")
 
 
 
