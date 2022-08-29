@@ -1,4 +1,4 @@
-#modification apportées par KEVIN
+
 
 def ajouterunplat()
     input("Veuillez entrer le nom du nouveau plat")
