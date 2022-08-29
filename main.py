@@ -1,6 +1,7 @@
 #modification apportées par KEVIN
 
 def ajouterunplat()
+    input("Veuillez entrer le nom du nouveau plat")
 
 def initialiser():
     dicomiam = {"Tarte au citron meringuée":["Farine",
