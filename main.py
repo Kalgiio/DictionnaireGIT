@@ -23,6 +23,14 @@ def initialiser():
     for cle, valeur in dicomiam.items():
         print("La recette pour", cle, "est : ", valeur)
 
+
+def modifierunplat():
+    print("ajouter le plat a modifier")
+
+
+
+
+
 def main():
     initialiser()
 
