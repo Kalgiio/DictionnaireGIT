@@ -34,6 +34,12 @@ def initialiser():
 
 def modifierunplat():
     print("ajouter le plat a modifier")
+    return
+
+
+def remplacerunplat():
+    print("quel est le plat a remplacer")
+    return
 
 def menuPrincipale():
     print("1 . Afficher les plats")
