@@ -31,6 +31,7 @@ def modifierunplat():
 
 def remplacerunplat():
     print("quel est le plat a remplacer")
+    return
 
 
 
