@@ -1,8 +1,15 @@
 
-#uojefoiuzepfizj
-def ajouterunplat():
-    input("Veuillez entrer le nom du nouveau plat")
-    input("Veuillez entrer les ingrédients du nouveau plat")
+def ajouterunplat(dicomiam):
+    print("Quel plat voulez ajouter")
+
+    cle = input()
+
+    flag = True
+    while flag:
+        print("Ajouter un nouveau igredient")
+        valeur = input()
+
+
 
 def initialiser():
     dicomiam = {"Tarte au citron meringuée":["Farine",
